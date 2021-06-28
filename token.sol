@@ -440,14 +440,14 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
     function _beforeTokenTransfer(address from, address to, uint256 amount) internal virtual { }
 }
 
-// File: contracts/SimonToken.sol
+// File: contracts/StandardToken.sol
 
 // contracts/SimpleToken.sol
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
 
-contract SimonToken is ERC20 {
+contract StandardToken is ERC20 {
     constructor(
         string memory name,
         string memory symbol,
